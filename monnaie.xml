@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE unite [
+<!ELEMENT unite (monnaie*)>
+<!ELEMENT monnaie (name,taux_change)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT taux_change (#PCDATA)>
+]>
+<unite>
+  <monnaie>
+      <name>EUROS</name>
+      <taux_change>1,666</taux_change>
+  </monnaie>
+  <monnaie>
+      <name>CHF</name>
+      <taux_change>1.5555</taux_change>
+  </monnaie>
+  <monnaie>
+        <name>USD</name>
+        <taux_change>1.444</taux_change>
+  </monnaie>
+  <monnaie>
+        <name>YEN</name>
+        <taux_change>1</taux_change>
+  </monnaie>
+</unite>
